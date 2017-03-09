@@ -1,4 +1,4 @@
-function Stack() {
+var Stack = function () {
 
     var items = [];
 
@@ -29,7 +29,7 @@ function Stack() {
     this.print = function () {
         console.log(items.toString());
     };
-}
+};
 
 
 // 用栈数据结构完成一个进制转换方法
@@ -66,4 +66,3 @@ baseConverter(11, 8); // 13
 baseConverter(11, 10); // 11
 baseConverter(20, 16); // 14
 baseConverter(12, 16); // C
-
